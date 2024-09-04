@@ -278,6 +278,21 @@ WEffectSelector {
   text-transform: uppercase;
 }
 
+WTrackTableViewHeader QMenu,
+WTrackTableViewHeader QMenu QCheckBox {
+  color: #060613;
+  background-color: #aab2b7;
+}
+
+WTrackTableViewHeader QMenu QCheckBox:selected,
+WTrackTableViewHeader QMenu QCheckBox:focus,
+WTrackTableViewHeader QMenu QCheckBox:hover {
+  background-color: lightgray;
+  color: #000;
+  /* remove OS focus indicator */
+  outline: none;
+}
+
 #LibraryWrapper QTableView,
 #LibraryWrapper WLibraryTextBrowser {
   background-color: black;
